@@ -9,17 +9,17 @@ En la clase main crear un mini juego, en donde la maquina tomara una carta al az
 
 ##  Diagrama de clases
 
-![EjemploEnum.png](assets/diagrams/EjemploEnum.png)
+![EjemploEnum.png](src/assets/diagrams/EjemploEnum.png)
 
 ## Casos de uso:
 
 Tomar en cuenta que el primer elemento de la lista es la carta del usuario y la segunda carta es de la computadora
 
 ### Caso de uso 1:
-![EnumCase1.png](assets/img/EnumCase1.png) 
+![EnumCase1.png](src/assets/img/EnumCase1.png) 
 
 ### Caso de uso 2:
-![EnumCase2.png](assets/img/EnumCase2.png)
+![EnumCase2.png](src/assets/img/EnumCase2.png)
 
 ### Caso de uso 3:
-![EnumCase3.png](assets/img/EnumCase3.png)
+![EnumCase3.png](src/assets/img/EnumCase3.png)
