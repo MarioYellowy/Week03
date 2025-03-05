@@ -1,4 +1,4 @@
-package enums;
+package Cards.assets.enums;
 
 public enum EValue {
     _2("2",2),

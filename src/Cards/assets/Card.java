@@ -1,5 +1,7 @@
-import enums.ESuit;
-import enums.EValue;
+package Cards.assets;
+
+import Cards.assets.enums.ESuit;
+import Cards.assets.enums.EValue;
 
 public class Card {
 

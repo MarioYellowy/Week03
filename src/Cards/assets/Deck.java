@@ -1,5 +1,7 @@
-import enums.ESuit;
-import enums.EValue;
+package Cards.assets;
+
+import Cards.assets.enums.ESuit;
+import Cards.assets.enums.EValue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +19,7 @@ public class Deck {
 
         deal(cards);
         game(cardPlayer, cardComp);
+        System.out.println(cardPlayer + " " + cardComp);
     }
 
     public void createCard() {
@@ -25,7 +28,7 @@ public class Deck {
 
         Random random = new Random();
         int typeIndex = random.nextInt(4);
-        int valueIndex = 2 + random.nextInt(11);
+        int valueIndex = random.nextInt(13);
 
         ESuit type = types[typeIndex];
         EValue value = values[valueIndex];

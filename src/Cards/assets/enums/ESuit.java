@@ -1,4 +1,4 @@
-package enums;
+package Cards.assets.enums;
 
 public enum ESuit {
     TREBOL("T"),

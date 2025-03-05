@@ -1,6 +1,7 @@
+import Herencia.Game;
+
 public class Main {
     public static void main(String[] args) {
-        Deck deck = new Deck();
-        System.out.println(deck.cards);
+        Game newGame = new Game();
     }
 }
